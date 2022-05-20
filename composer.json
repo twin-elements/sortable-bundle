@@ -13,7 +13,8 @@
         "php": "^7.4",
         "symfony/framework-bundle": "^4.4 || ^5.4",
         "symfony/twig-bundle": "^5.4",
-        "twin-elements/response-parameter-builder": "^1.0"
+        "twin-elements/response-parameter-builder": "^1.0",
+        "twin-elements/admin-translator": "^1.0"
     },
     "autoload": {
         "psr-4": {
