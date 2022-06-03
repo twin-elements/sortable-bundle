@@ -33,3 +33,12 @@ and
     {{ block('sortable') }}
 {% endblock %}
 ```
+
+2. In controller 
+```
+    $responseParameters = new ResponseParameterBuilder();
+    $responseParameters
+        ->addParameter('key',$value);
+
+    SortableResponseParametersPreparer::prepare($responseParameters, Entity::class);
+```
